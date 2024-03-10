@@ -46,6 +46,8 @@ function checkGuess() {
     lastResult.textContent = `${testGuess} is Invalid! Enter Number between 1 and 100`;
     lastResult.style.backgroundColor = "red";
     lowOrHi.textContent = "";
+    guesses.textContent = "Your Previous Guesses: ";
+
   }
 
   //test
