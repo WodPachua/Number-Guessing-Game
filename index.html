@@ -8,24 +8,25 @@
     <title>My Number Guessing Game</title>
   </head>
   <body>
-    <h1>You Are Here!! Wow 😮🙏!!</h1>
+    <h2>Number Guessing Game</h2>
+    <div class="container">
+      <p>
+        Guess a number between 1 and 100. See if you can guess it in 10 turns or
+        less. We'll tell you if your guess was too high or too low. <br /><br />
+        <span>(Peep at the console incase you get defeated)</span>
+      </p>
 
-    <p>
-      Ready to see if you can guess what our random number is? Here is a hint,
-      its between 1 and 100. See if you can guess it in 10 turns or less. We'll
-      tell you if your guess was too high or too low.
-    </p>
+      <div class="form">
+        <label for="guessField">Enter a guess: </label>
+        <input type="text" id="guessField" class="guessField" />
+        <input type="submit" value="Submit guess" class="guessSubmit" />
+      </div>
 
-    <div class="form">
-      <label for="guessField">Enter a guess: </label>
-      <input type="text" id="guessField" class="guessField" />
-      <input type="submit" value="Submit guess" class="guessSubmit" />
-    </div>
-
-    <div class="resultParas">
-      <p class="guesses"></p>
-      <p class="lastResult"></p>
-      <p class="lowOrHi"></p>
+      <div class="resultParas">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+      </div>
     </div>
   </body>
 </html>
